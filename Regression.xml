@@ -1,0 +1,50 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.CheckoutPage"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.Homepage"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.Loginpage"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.OrderdetailsPage"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.PageBase"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.ProductDetailsPage"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.RegisterPage"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.SearchPage"/>
+        </classes>
+    </test>
+    <test name="Regression1">
+        <classes>
+            <class name="Pages.ShoppingCartPage"/>
+        </classes>
+    </test>
+</suite>
